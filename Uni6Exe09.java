@@ -13,9 +13,40 @@ Utilize os conceitos aprendidos sobre vetores (ou mesmo o uso de matriz).
 
 */
 
+import java.util.Scanner;
+
 public class Uni6Exe09 {
     
     public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+
+        int sexoNum = 0;
+        String sexo;
+
+        for (int i=0; i<30; i++) {
+            System.out.print("Qual seu sexo? [1 - masculino / 2 - feminino]");
+            sexoNum = sc.nextInt();
+
+            if (sexoNum==1) {
+                sexo = "feminino";    
+            }
+
+            else if (sexoNum==2) {
+                sexo = "masculino";
+            }
         
+       // Qual a nota média recebida pelo cinema;
+        System.out.println("Qual a nota média recebida pelo cinema?");
+
+
+
+        }
+        
+        
+        // Qual a nota média atribuída pelos homens;
+        System.out.println("Qual a nota média atribuída pelos homens?");
+
+
     }
 }
